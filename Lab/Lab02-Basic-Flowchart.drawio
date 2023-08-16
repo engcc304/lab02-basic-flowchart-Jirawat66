@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-        <mxGraphModel dx="4674" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="4646" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -168,7 +168,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="482" value="" style="swimlane;fontFamily=Sarabun;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;startSize=23;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-                    <mxGeometry x="-2532" y="610" width="2652" height="1973.75" as="geometry"/>
+                    <mxGeometry x="-2532" y="610" width="2652" height="1991.25" as="geometry"/>
                 </mxCell>
                 <mxCell id="483" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;เริ่มต้น&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="482" vertex="1">
                     <mxGeometry x="255" y="40" width="130" height="30" as="geometry"/>
@@ -433,11 +433,11 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="715" value="F" style="edgeStyle=none;html=1;fontSize=15;" edge="1" parent="482" source="638" target="714">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="638" value="ทอน &amp;gt;=1 &lt;br&gt;เหรียญพอไหม" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Sarabun;sketch=0;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="482">
                     <mxGeometry x="944" y="1870" width="132.5" height="47.5" as="geometry"/>
-                </mxCell>
-                <mxCell id="640" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="482" source="638" target="638">
-                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="648" value="ทอนแบงค์ 50&amp;nbsp;&lt;br&gt;-1 แบงค์50 ในเครื่อง" style="whiteSpace=wrap;html=1;fontFamily=Sarabun;sketch=0;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="482">
                     <mxGeometry x="444" y="1713.75" width="139.5" height="33.75" as="geometry"/>
@@ -516,6 +516,18 @@
                 </mxCell>
                 <mxCell id="676" value="ทอนแบงค์ 1000&amp;nbsp;&lt;br&gt;-1 แบงค์1000 ในเครื่อง" style="whiteSpace=wrap;html=1;fontFamily=Sarabun;sketch=0;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="482">
                     <mxGeometry x="192" y="1531.25" width="139.5" height="33.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="714" value="เงินทอนไม่พอ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Sarabun;sketch=0;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSarabun;" vertex="1" parent="482">
+                    <mxGeometry x="1122" y="1876.25" width="120" height="33.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="716" style="edgeStyle=none;html=1;fontSize=15;entryX=0.262;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="482" source="714" target="595">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="892" y="970" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1282" y="1893"/>
+                            <mxPoint x="722" y="870"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="554" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Sarabun&quot; face=&quot;Sarabun&quot;&gt;โจทย์ปัญหา&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
                     <mxGeometry x="-2488" y="300" width="645" height="310" as="geometry"/>
